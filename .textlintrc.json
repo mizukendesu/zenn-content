@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "@textlint-ja/preset-ai-writing": {
+      "no-ai-list-formatting": {
+        "disableBoldListItems": false,
+        "disableEmojiListItems": false
+      },
+      "no-ai-colon-continuation": {
+        "disableCodeBlock": true,
+        "disableTable": true
+      },
+      "ai-tech-writing-guideline": {
+        "severity": "info"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "zenn-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:ai": "textlint \"articles/**/*.md\"",
+    "lint:ai:fix": "textlint --fix \"articles/**/*.md\"",
+    "textlint:mcp": "textlint --mcp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizukendesu/zenn-content.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mizukendesu/zenn-content/issues"
+  },
+  "homepage": "https://github.com/mizukendesu/zenn-content#readme",
+  "dependencies": {
+    "zenn-cli": "^0.5.2"
+  },
+  "devDependencies": {
+    "@textlint-ja/textlint-rule-preset-ai-writing": "^1.7.0",
+    "textlint": "^15.7.1"
+  }
+}
